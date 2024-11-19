@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GluedInSampleSwiftUIApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for GluedInSampleSwiftUIApp
+  pod 'GluedInSDK', "2.4.6"
+  pod 'SkeletonView'
+  pod 'AFNetworking'
+
+end

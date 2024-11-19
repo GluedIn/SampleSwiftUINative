@@ -1,0 +1,74 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - GluedInCoreSDK (2.4.9)
+  - GluedInCreatorSDK (2.4.9):
+    - AFNetworking
+    - GluedInCoreSDK (= 2.4.9)
+    - SDWebImage
+  - GluedInDMSDK (2.4.9):
+    - GluedInCoreSDK (= 2.4.9)
+    - SDWebImage
+  - GluedInFeedSDK (2.4.9):
+    - GluedInCoreSDK (= 2.4.9)
+    - SDWebImage
+    - SkeletonView
+  - GluedInRewardSDK (2.4.9):
+    - GluedInCoreSDK (= 2.4.9)
+    - SDWebImage
+  - GluedInSDK (2.4.6):
+    - GluedInCoreSDK (~> 2.4.3)
+    - GluedInCreatorSDK (~> 2.4.3)
+    - GluedInDMSDK (~> 2.4.3)
+    - GluedInFeedSDK (~> 2.4.6)
+    - GluedInRewardSDK (~> 2.4.3)
+    - SDWebImage
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
+  - SkeletonView (1.30.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - GluedInSDK (= 2.4.6)
+  - SkeletonView
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - GluedInCoreSDK
+    - GluedInCreatorSDK
+    - GluedInDMSDK
+    - GluedInFeedSDK
+    - GluedInRewardSDK
+    - GluedInSDK
+    - SDWebImage
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  GluedInCoreSDK: 0989cf9436752cbe585cf92aac38dce3a861508d
+  GluedInCreatorSDK: d97ad7bd4149cf15586eaa6b202669a617e29fa3
+  GluedInDMSDK: 3faa02cf8fda28dee019b6fa407b551a6bc2e659
+  GluedInFeedSDK: 3b1877d1ca8d3cc53ad64294a41220f800019fb3
+  GluedInRewardSDK: 55616873513b1706d6c6bb75c8f19b57ae74b776
+  GluedInSDK: 5c713b08d01bf5ef78de753c27c20475958d2c99
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+
+PODFILE CHECKSUM: fa8a39a0c4c8f64d06a7953d95293335c94c9b42
+
+COCOAPODS: 1.16.2
